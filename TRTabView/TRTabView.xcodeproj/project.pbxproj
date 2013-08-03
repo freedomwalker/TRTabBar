@@ -16,12 +16,10 @@
 		17050BAC17ACD05F0007E1E6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 17050BAB17ACD05F0007E1E6 /* Default.png */; };
 		17050BAE17ACD05F0007E1E6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17050BAD17ACD05F0007E1E6 /* Default@2x.png */; };
 		17050BB017ACD05F0007E1E6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17050BAF17ACD05F0007E1E6 /* Default-568h@2x.png */; };
-		17050BB317ACD05F0007E1E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17050BB217ACD05F0007E1E6 /* ViewController.m */; };
-		17050BB617ACD05F0007E1E6 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17050BB417ACD05F0007E1E6 /* ViewController.xib */; };
 		17050BC617ACD1630007E1E6 /* TRTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17050BC517ACD1630007E1E6 /* TRTabBarView.m */; };
-		17050BCD17ACD53B0007E1E6 /* TRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17050BCC17ACD53B0007E1E6 /* TRViewController.m */; };
 		17050BD117ACDA370007E1E6 /* tr_item_sel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17050BCF17ACDA370007E1E6 /* tr_item_sel@2x.png */; };
 		17050BD217ACDA370007E1E6 /* tr_tab_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17050BD017ACDA370007E1E6 /* tr_tab_bg@2x.png */; };
+		17050BD517ACED7B0007E1E6 /* TRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17050BD417ACED7B0007E1E6 /* TRViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,15 +36,12 @@
 		17050BAB17ACD05F0007E1E6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		17050BAD17ACD05F0007E1E6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		17050BAF17ACD05F0007E1E6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		17050BB117ACD05F0007E1E6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		17050BB217ACD05F0007E1E6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		17050BB517ACD05F0007E1E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		17050BC417ACD1630007E1E6 /* TRTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRTabBarView.h; sourceTree = "<group>"; };
 		17050BC517ACD1630007E1E6 /* TRTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRTabBarView.m; sourceTree = "<group>"; };
-		17050BCB17ACD53B0007E1E6 /* TRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRViewController.h; sourceTree = "<group>"; };
-		17050BCC17ACD53B0007E1E6 /* TRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRViewController.m; sourceTree = "<group>"; };
 		17050BCF17ACDA370007E1E6 /* tr_item_sel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tr_item_sel@2x.png"; sourceTree = "<group>"; };
 		17050BD017ACDA370007E1E6 /* tr_tab_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tr_tab_bg@2x.png"; sourceTree = "<group>"; };
+		17050BD317ACED7B0007E1E6 /* TRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRViewController.h; sourceTree = "<group>"; };
+		17050BD417ACED7B0007E1E6 /* TRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +91,8 @@
 				17050BC317ACD1630007E1E6 /* Class */,
 				17050BA817ACD05F0007E1E6 /* AppDelegate.h */,
 				17050BA917ACD05F0007E1E6 /* AppDelegate.m */,
-				17050BB117ACD05F0007E1E6 /* ViewController.h */,
-				17050BB217ACD05F0007E1E6 /* ViewController.m */,
-				17050BB417ACD05F0007E1E6 /* ViewController.xib */,
+				17050BD317ACED7B0007E1E6 /* TRViewController.h */,
+				17050BD417ACED7B0007E1E6 /* TRViewController.m */,
 				17050BA017ACD05F0007E1E6 /* Supporting Files */,
 			);
 			path = TRTabs;
@@ -108,7 +102,6 @@
 			isa = PBXGroup;
 			children = (
 				17050BCE17ACDA370007E1E6 /* Images */,
-				17050BC717ACD4F60007E1E6 /* Demo */,
 				17050BA117ACD05F0007E1E6 /* TRTabView-Info.plist */,
 				17050BA217ACD05F0007E1E6 /* InfoPlist.strings */,
 				17050BA517ACD05F0007E1E6 /* main.m */,
@@ -127,15 +120,6 @@
 				17050BC517ACD1630007E1E6 /* TRTabBarView.m */,
 			);
 			path = Class;
-			sourceTree = "<group>";
-		};
-		17050BC717ACD4F60007E1E6 /* Demo */ = {
-			isa = PBXGroup;
-			children = (
-				17050BCB17ACD53B0007E1E6 /* TRViewController.h */,
-				17050BCC17ACD53B0007E1E6 /* TRViewController.m */,
-			);
-			path = Demo;
 			sourceTree = "<group>";
 		};
 		17050BCE17ACDA370007E1E6 /* Images */ = {
@@ -202,7 +186,6 @@
 				17050BAC17ACD05F0007E1E6 /* Default.png in Resources */,
 				17050BAE17ACD05F0007E1E6 /* Default@2x.png in Resources */,
 				17050BB017ACD05F0007E1E6 /* Default-568h@2x.png in Resources */,
-				17050BB617ACD05F0007E1E6 /* ViewController.xib in Resources */,
 				17050BD117ACDA370007E1E6 /* tr_item_sel@2x.png in Resources */,
 				17050BD217ACDA370007E1E6 /* tr_tab_bg@2x.png in Resources */,
 			);
@@ -217,9 +200,8 @@
 			files = (
 				17050BA617ACD05F0007E1E6 /* main.m in Sources */,
 				17050BAA17ACD05F0007E1E6 /* AppDelegate.m in Sources */,
-				17050BB317ACD05F0007E1E6 /* ViewController.m in Sources */,
 				17050BC617ACD1630007E1E6 /* TRTabBarView.m in Sources */,
-				17050BCD17ACD53B0007E1E6 /* TRViewController.m in Sources */,
+				17050BD517ACED7B0007E1E6 /* TRViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,14 +214,6 @@
 				17050BA317ACD05F0007E1E6 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		17050BB417ACD05F0007E1E6 /* ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				17050BB517ACD05F0007E1E6 /* en */,
-			);
-			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -342,6 +316,7 @@
 				17050BBB17ACD05F0007E1E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
