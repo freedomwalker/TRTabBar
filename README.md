@@ -3,4 +3,4 @@ TRTabBar
 
 A simple tabBar view
 
-![TRTabBar](TRTabBar/raw/master/Screenshots/screenshot_1.png)
+![TRTabBar](https://raw.github.com/freedomwalker/TRTabBar/master/Screenshots/screenshot_1.png)
